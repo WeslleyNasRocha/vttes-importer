@@ -1,0 +1,20 @@
+{
+  "name": "foundry-vttes",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.269.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-static-copy": "^0.5.1"
+  },
+  "dependencies": {
+    "mathjs": "^10.6.1"
+  }
+}

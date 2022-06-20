@@ -1,0 +1,23 @@
+{
+  "name": "vttes-importer",
+  "title": "VTTES Importer",
+  "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+  "author": "Weslley Rocha",
+  "version": "0.0.1",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "esmodules": ["VTTESImporter.es.js"],
+  "styles": ["style.css"],
+  "laguages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ptBr",
+      "name": "Portuguese (Brazil)",
+      "path": "lang/pt-br.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "esnext",
+    "sourceMap": true,
+    "module": "esnext",
+    "isolatedModules": false,
+    "strictNullChecks": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "useDefineForClassFields": true,
+    "importsNotUsedAsValues": "remove",
+    "skipLibCheck": true,
+    "lib": ["es6", "dom", "ES2017", "ES2018"],
+    "types": ["@league-of-foundry-developers/foundry-vtt-types", "node"],
+
+    "allowUmdGlobalAccess": true
+    // "target": "ESNext",
+    // "useDefineForClassFields": true,
+    // "module": "ESNext",
+    // "lib": ["ESNext", "DOM"],
+    // "moduleResolution": "Node",
+    // "strict": true,
+    // "sourceMap": true,
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "esModuleInterop": false,
+    // "noEmit": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "skipLibCheck": true
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+}
